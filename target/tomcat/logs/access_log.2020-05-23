@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [23/May/2020:23:42:29 +0100] "GET /rds/ HTTP/1.1" 200 790 http-bio-8084-exec-1 362
+0:0:0:0:0:0:0:1 - - [23/May/2020:23:42:34 +0100] "GET /rds/register.jsp HTTP/1.1" 200 1090 http-bio-8084-exec-3 38
+0:0:0:0:0:0:0:1 - - [23/May/2020:23:42:49 +0100] "POST /rds/userRegistration.jsp HTTP/1.1" 302 - http-bio-8084-exec-4 1654
+0:0:0:0:0:0:0:1 - - [23/May/2020:23:42:49 +0100] "GET /rds/welcome.jsp HTTP/1.1" 200 81 http-bio-8084-exec-6 32
