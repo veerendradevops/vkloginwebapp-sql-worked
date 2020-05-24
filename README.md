@@ -6,7 +6,7 @@ this is worked with sql tooo
 => You need to create One RDS by choosing below SQL(5.6) version(because it is stable version)
 => Once the rds is created, then please connect it to your SQL workbench or your local sql
 => Create a database and table by using below queries
-
+=> Make sure to open required ports in rds security group
 SQL Queries:
 DB creation:
 CREATE SCHEMA demo DEFAULT CHARACTER SET 'utf8mb4' DEFAULT COLLATE 'utf8mb4_bin' ;
@@ -20,5 +20,8 @@ CREATE TABLE IF NOT EXISTS demo.users (username VARCHAR(100) PRIMARY KEY,first_n
 
 Insert the data for testing:
 insert into demo.users(first_name, last_name, email, username, password, regdate) values ('veerendra','kumar','vk@gmail.com','vktholeti','password', CURDATE());
+
+####CONNECTING SQL DATABASE from SQL in ubuntu/linux ###########33
+mysql -h <rds endpoint> -u admin -P 3306 -p <database'name>
 
 
